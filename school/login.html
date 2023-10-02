@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login to Personal Page</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <img
+      class="logbackground"
+      src="assets/images/meetings-page-bg.jpg"
+      alt="" />
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">
+                <img src="assets/images/logo-no-background.png" alt="" />
+              </a>
+              <!-- ***** Logo End ***** -->
+
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+
+                <li><a href="registration.html">Apply Now</a></li>
+
+                <li>
+                  <a href="index.html#contact">Contact Us</a>
+                </li>
+                <li class="myButton">
+                  <a href="login.html" class="active">Sign In</a>
+                </li>
+              </ul>
+
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    <div class="logcontainer">
+      <div class="logbox">
+        <h2>Login</h2>
+        <form action="">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" autocomplete="email" />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            autocomplete="new-password" />
+          <div>
+            <input
+              type="submit"
+              value="Log In"
+              class="btn"
+              id="btn"
+              onclick="mine()" />
+            <button onclick="register()">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>

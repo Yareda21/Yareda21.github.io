@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Banking System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="note" id="loginArea">
+      <h1>Welcome to Simple Banking System</h1>
+      <h2>Login Page</h2>
+      <div class="form_content">
+        <input
+          type="email"
+          autocomplete="email"
+          name="email"
+          id="email"
+          placeholder="Email" />
+        <input
+          type="password"
+          name="password"
+          autocomplete="current-password"
+          id="password"
+          show="*"
+          placeholder="Password" />
+        <input type="submit" value="Submit" id="login-submit" />
+      </div>
+      <p class="info">
+        Use Email as - <span>email@fakemail.com </span> <br />
+        Password as - <span>1234</span>
+      </p>
+    </div>
+
+    <div id="dashboard" class="new dshow">
+      <div class="showing">
+        <div class="badge one">
+          <h2>Deposite</h2>
+          <p>$ <span id="deposite">0</span></p>
+        </div>
+        <div class="badge two">
+          <h2>Withdraw</h2>
+          <p>$ <span id="withdraw">0</span></p>
+        </div>
+        <div class="badge three">
+          <h2>Balance</h2>
+          <p>$ <span id="balance">1000</span></p>
+        </div>
+      </div>
+      <div id="input-section">
+        <div class="box">
+          <h2>Deposite</h2>
+          <input
+            type="number"
+            name="deposite"
+            id="deposite-input"
+            placeholder="Deposite" />
+          <button type="submit" id="submit-deposite">Deposite</button>
+        </div>
+        <div class="box">
+          <h2>Withdraw</h2>
+          <input
+            type="number"
+            name="deposite"
+            id="withdraw-input"
+            placeholder="Withdraw" />
+          <button type="submit" id="submit-withdraw">Withdraw</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
