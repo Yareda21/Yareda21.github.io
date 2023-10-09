@@ -76,6 +76,8 @@ span {
   display: flex;
 }
 
+
+
 .navlist a {
   color: var(--text-color);
   font-weight: 800;
@@ -509,6 +511,10 @@ section {
 .service-box h3 {
   margin-top: 10px;
   font-size: 1.5rem;
+}
+
+.service-box a{
+  color: #fdfdfd;
 }
 
 .service-box p {
