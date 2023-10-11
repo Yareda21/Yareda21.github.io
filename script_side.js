@@ -3,16 +3,16 @@ const allLinks = document.querySelectorAll(".tabs a");
 const allTabs = document.querySelectorAll(".tab-content")
 const tabContentWrapper = document.querySelector(".tab-content-wrapper");
 
-const shiftTabs = (linkId) => {
-  allTabs.forEach((tab, i) => {
+// const shiftTabs = (linkId) => {
+//   allTabs.forEach((tab, i) => {
       
-    if (tab.id.includes(linkId)) {
-      allTabs.forEach((tabItem) => { 
-        tabItem.style = `transform: translateY(-${i*300}px);`;
-      });
-    }
-  });
-}
+//     if (tab.id.includes(linkId)) {
+//       allTabs.forEach((tabItem) => { 
+//         tabItem.style = `transform: translateY(-${i*300}px);`;
+//       });
+//     }
+//   });
+// }
 
 allLinks.forEach((elem) => {
   elem.addEventListener('click', function() {

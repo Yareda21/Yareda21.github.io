@@ -43,7 +43,7 @@ header {
 .tab-content-wrapper {
     overflow-y: hidden;
     overflow-x: auto;
-    height: 300px;
+    height: 310px;
     transition: all 0.45s ease-in-out;
     padding: 0 16px;
 }
@@ -58,10 +58,22 @@ header {
 
 .tab-content {
     font-size: 0.8rem;
-    min-height: 300px;
+    min-height: 250px;
     min-width: 240px;
+    padding-top: 20px;
     overflow-x: auto;
     transition: all 0.45s ease-in-out;
+}
+
+.tab-content ul li{
+    color: #3e3e3e;
+    font-size: 17px;
+    margin-bottom: 10px;
+
+}
+
+.tab-content ul span{
+    color: darkkhaki;
 }
 
 .tabs {
@@ -124,6 +136,8 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 
     }
     
