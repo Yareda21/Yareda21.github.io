@@ -3544,10 +3544,11 @@ hr {
 
 /* line 32, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
 .slider-area {
-  background-image: url(../img/hero/h1_hero.png);
+  /* background-image: url(../img/hero/charity.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  margin-top: -22px; */
 }
 
 /* line 39, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_h1-hero.scss */
